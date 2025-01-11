@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* General styles */
+body {
+    margin: 0;
+    font-family: Fira Sans;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F5F5;
+    padding: 10px 20px;
+    color: black;
+    height: 60px;
+    ;
+}
+
+.navbar .left {
+    font-size:32px;
+    font-weight: bold;
+    padding-left: 70px;
+}
+
+.navbar .right .sign-in-btn {
+    background-color: white;
+    color: #006A50;
+    border: 1px solid #006A50;
+    padding: 8px 15px;
+    margin-right: 80px ;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Fira Sans;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.navbar .right .sign-in-btn:hover {
+    background-color: green;
+    color: white;
+    border-color: #006A50;
+}
+
+/* First section design Start */
+.first-section{
+    display: flex;
+    margin: 10px 100px;
+    padding-left: 90px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    box-shadow:0px 4px 4px;
+}
+
+   
+.hero{
+    margin-left: auto;
+    height: 300px;
+    padding: 100px 200px;
+
+}
+
+.btn-exp{
+    color: white;
+    font-weight: bold;
+    font-family: Fira Sans;
+    background-color: #006A50;
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px;
+}
+.btn-exp:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-color: #006A50;
+}
+
+.container1{
+    padding-top: 150px;
+
+}
+
+.sub-title{
+    opacity: 0.6;
+}
+/* First section design End */
