@@ -88,3 +88,161 @@ body {
     opacity: 0.6;
 }
 /* First section design End */
+
+/* 2nd section design start*/
+
+.plofbd-title{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.container {
+    display: flex;
+    justify-content:center;
+    margin-top: 50px; 
+    gap: 110px;
+}
+
+.pillar {
+    width: 200px; 
+    padding: 20px;
+    box-shadow: 0px 4px 4px;
+    border-radius: 10px;
+}
+
+
+
+.pillar-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.pillar-description {
+    font-size: 14px;
+    color: #777;
+}
+
+
+/* Third Section */
+container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px; 
+}
+
+.section{
+    width: 300px; 
+    padding: 20px;
+    gap:5px;
+    border-radius: 5px;
+    background-color: #f0f0f0; 
+    box-shadow: 0px 4px 4px;
+}
+
+.section-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.section-description {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.learn-more-button1{
+    background-color: #5490F5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.learn-more-button2{
+    background-color: #09A15C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.learn-more-button3{
+    background-color: #FFC239;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.vision{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+
+/* fourth section */
+.quote-container {
+    width: 1200px; 
+    margin: 50px auto; 
+   
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: Fira Sans;
+}
+
+blockquote {
+    margin-bottom: 15px;
+}
+
+.pm {
+    font-size: 18px;
+    margin-left: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.pmtitle {
+    font-size: 14px;
+    color: #777;
+    margin-left: 40px;
+
+}
+
+/* fifth section */
+table {
+    width: 80%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    font-family: Fira Sans;
+}
+
+th {
+    background-color: #C6E4D6;
+    padding: 15px;
+    text-align: left;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+select {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.dropdown{
+    background-color: #C6E4D6;
+}
+.table-container{
+    border-radius: 10px;
+    padding:10px;
+    box-shadow: 0px 4px 6px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.opinion-title{
+    margin-left: 100px;
+}
