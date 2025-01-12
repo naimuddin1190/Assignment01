@@ -246,3 +246,154 @@ select {
 .opinion-title{
     margin-left: 100px;
 }
+
+/* sixth section */
+
+ 
+ 
+/* Donation design */
+.donation {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .donation h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .donation p {
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .donation-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    margin-bottom: 20px;
+  }
+  
+  .donation-options .option {
+    background-color: #FFFFFF; 
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    box-shadow: 1px 4px 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .donation-options .option:hover{
+    background-color: #C6E4D6;
+  }
+  .other-amount {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 4px 4px;
+    margin-bottom: 20px;
+   text-align: center;
+    
+  }
+  
+  .donate-btn {
+    background-color:#006A50; 
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+  /*  Newsletter section*/
+
+  .newsletter {
+    background-color: #C6E4D6;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px;
+  }
+  
+  .newsletter h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .newsletter p {
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .newsform-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .newsform-container input[type="email"] {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 250px;
+  }
+  
+  .newsform-container button {
+    background-color: #006A50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  .newsform-container button:hover{
+    background-color: #5490F5;
+  }
+  
+  .note {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+  }
+
+  /* Footer style */
+  
+  footer {
+    background-color: #fff; 
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    
+    justify-content: center; 
+    align-items: center; 
+    max-width: 960px;
+    margin: 0 auto; 
+  }
+  
+  .footer-content p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px; 
+  }
+  
+  .social-icons {
+    
+    align-items: center;
+  }
+  
+  .social-icons a img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px; 
+  }
+  hr{
+    opacity: 0.1;
+  }
