@@ -94,6 +94,7 @@ body {
 .plofbd-title{
     margin-left: 100px;
     margin-top: 50px;
+    
 }
 .container {
     display: flex;
@@ -129,12 +130,28 @@ container {
     margin-top: 50px; 
 }
 
-.section{
+.section1{
     width: 300px; 
     padding: 20px;
     gap:5px;
     border-radius: 5px;
-    background-color: #f0f0f0; 
+   background-color:#81B4FC;
+    box-shadow: 0px 4px 4px;
+}
+.section2{
+    width: 300px; 
+    padding: 20px;
+    gap:5px;
+    border-radius: 5px;
+    background-color:#C6E4D6; 
+    box-shadow: 0px 4px 4px;
+}
+.section3{
+    width: 300px; 
+    padding: 20px;
+    gap:5px;
+    border-radius: 5px;
+    background-color:#F7EBCF; 
     box-shadow: 0px 4px 4px;
 }
 
@@ -247,9 +264,84 @@ select {
     margin-left: 100px;
 }
 
-/* sixth section */
+/* News sixth section */
+.newscontainer {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
 
- 
+.recent-news {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.recent-news h2 {
+    margin-bottom: 10px;
+    margin-left: 100px;
+
+    
+}
+.recentNews{
+    margin-left: 100px;
+    
+}
+.recentNewsdes{
+    margin-left: 100px;
+    opacity: 0.6;
+
+}
+
+.news-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.news-image {
+    flex: 0 0 200px;
+    margin-right: 20px;
+    margin-top: 50px;
+    
+}
+
+.news-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.news-content {
+    flex: 1;
+}
+
+.news-content h3 {
+    margin-bottom: 5px;
+}
+
+.news-content p {
+    margin-bottom: 10px;
+    opacity: 0.6;
+}
+
+.news-source {
+    color: #888;
+    font-size: 12px;
+}
+
+.btn{background-color:#006A50; 
+color: #fff;
+padding: 15px 30px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+
+}
+.btn:hover{
+    background-color: #5490F5;
+}
  
 /* Donation design */
 .donation {
@@ -308,7 +400,9 @@ select {
     cursor: pointer;
   }
 
-
+  .donate-btn:hover{
+    background-color:#5490F5 ;
+  }
   /*  Newsletter section*/
 
   .newsletter {
